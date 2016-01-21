@@ -11,8 +11,8 @@ import android.widget.Toast;
 public class RayPickActivity extends Activity implements
 		OnSurfacePickedListener {
 
-	private GLSurfaceView mGLSurfaceView;
-
+	private GLSurfaceView mGLSurfaceView ;
+//Android OpenGL射线拾取&手势旋转 http://vaero.blog.51cto.com/4350852/790620
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
